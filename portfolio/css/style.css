@@ -150,11 +150,12 @@ li {
   font-size: 64px;
   line-height: 1;
   letter-spacing: .2em;
+  line-height: 1.5;
 }
 
 #header .logo-desc {
   font-size: 20px;
-  margin-top: 5px;
+  margin-top: 50px;
   text-align: center;
   letter-spacing: .2em;
 }
@@ -281,6 +282,7 @@ li {
 
 #works .section-image {
   flex-basis: 58%;
+  margin-bottom: 20px; 
 }
 
 #works .section-image img {
@@ -290,6 +292,7 @@ li {
 
 #works .section-desc {
   flex-basis: 37%;
+  margin-bottom: 20px; 
 }
 
 /*--------------------------------
@@ -417,7 +420,7 @@ li {
   align-items: flex-end;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 150px;
+  width: 50px;
   margin: 0 auto;
 }
 
@@ -727,4 +730,55 @@ li {
 
 .color_row{
   background-color: #edfdfb
+}
+
+
+
+
+.list ul {
+  padding: 0 0.5em;
+  position: relative;
+  
+}
+
+.list ul li {
+  line-height: 1.5;
+  padding: 0.5em 0 0.5em 1.4em;
+  border-bottom: dashed 1px silver;
+  list-style-type: none!important;
+  margin-left: 20px;
+}
+
+.list ul li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";/*アイコン種類*/
+  position: absolute;
+  left : 0.5em; /*左端からのアイコンまで*/
+  color: #585756; /*アイコン色*/
+  font-weight: 900; 
+  margin-left: 20px;
+}
+
+.list ul li:last-of-type {
+  border-bottom: none;
+}
+
+
+
+
+summary {
+  font-weight: bold;
+  margin: -.5em -.5em 0;
+
+}
+
+
+details[open] {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: .5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: .5em;
 }

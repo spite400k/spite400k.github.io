@@ -148,9 +148,8 @@ li {
 #header .logo-title {
   font-family: "Open sans", sans-serif;
   font-size: 64px;
-  line-height: 1;
-  letter-spacing: .2em;
   line-height: 1.5;
+  letter-spacing: .2em;
 }
 
 #header .logo-desc {
